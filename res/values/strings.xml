@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">QSee</string>
+    <string name="app_ver">2.0</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
