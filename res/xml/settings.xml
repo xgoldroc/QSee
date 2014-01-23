@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:key="settings" android:title="设置">
+  
+
+<PreferenceCategory android:title="文件夹展示图标设置">
+<CheckBoxPreference 
+    android:key="showDirContainsImagesCount" 
+    android:defaultValue="true" 
+    android:title="所含图片数显示" 
+    android:summary="图标上显示所包含的图片数"
+    />
+<CheckBoxPreference 
+    android:key="showDirThumb" 
+    android:defaultValue="true" 
+    android:title="内容图片预览显示" 
+    android:summary="图标上预览一幅图片"
+    />
+</PreferenceCategory>
+
+<PreferenceCategory android:title="全图查看设置">
+<CheckBoxPreference 
+    android:key="sentorSwitchImage" 
+    android:title="甩动屏幕切换图片" 
+    android:summary="左(右)甩屏切换上(下)一张图片" 
+    android:defaultValue="false"
+    />
+</PreferenceCategory>
+
+<PreferenceCategory android:title="壁纸切换设置">
+	<CheckBoxPreference android:key="dblClickToNextImage" android:title="双击切换壁纸" android:summary="美图飞度壁纸上双击自动切换到下一张壁纸" android:defaultValue="true"/>
+	<ListPreference 
+        android:title ="切换上一张区域大小" 
+        android:summary ="屏幕上双击此区域切换回上一张" 
+        android:key ="dblClickPrevAreaWidth" 
+        android:dialogTitle ="屏幕左边多大设置为切换区域" 
+        android:entries ="@array/prev_area_widths_names" 
+        android:entryValues ="@array/prev_area_widths" 
+        android:defaultValue="4"
+    /> 
+    <CheckBoxPreference android:key="timerSwitchImage" android:title="定时切换壁纸" android:summary="间隔指定时间自动切换壁纸" android:defaultValue="false"/>
+    <ListPreference 
+        android:key="timerInterval" 
+        android:title="时间间隔" 
+        android:summary="指定自动切换壁纸的时间间隔" 
+        android:dependency="timerSwitchImage" 
+        android:entries ="@array/switch_interval_name" 
+        android:entryValues ="@array/switch_interval" 
+        android:defaultValue="15"
+		android:dialogTitle="时间间隔（分钟）"
+		
+	/>
+</PreferenceCategory>
+
+<PreferenceCategory android:title="其他设置">
+<CheckBoxPreference 
+    android:key="hints" 
+    android:defaultValue="false" 
+    android:title="图片数提示" 
+    android:summary="进入文件夹提示包含图片数"
+    />
+<CheckBoxPreference 
+    android:key="exhibitionNewEnabled" 
+    android:defaultValue="true" 
+    android:title="在线壁纸更新提示" 
+    android:summary="自动检测在线壁纸的更新情况，并在有更新时提示"
+    />
+</PreferenceCategory>
+
+</PreferenceScreen>

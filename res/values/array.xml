@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name ="prev_area_widths_names"> 
+    <item>屏幕左边1/4大小</item> 
+    <item>屏幕左边1/3大小</item> 
+    <item>屏幕左边1/2大小</item> 
+</string-array> 
+<string-array name ="prev_area_widths"> 
+    <item>4</item> 
+    <item>3</item> 
+    <item>2</item> 
+</string-array>
+<string-array name="rotation_mode">
+	<item>左向旋转90度</item>
+	<item>右向旋转90度</item>
+	<item>旋转180度</item>
+	<item>取消旋转效果</item>
+</string-array>
+<string-array name="sort_policy">
+	<item>按文件名称正序</item>
+	<item>按文件名称倒序</item>
+	<item>按修改时间正序</item>
+	<item>按修改时间倒序</item>
+	<item>按文件大小正序</item>
+	<item>按文件大小倒序</item>
+</string-array>
+<string-array name="switch_interval_name">
+    <item>1分钟</item>
+    <item>5分钟</item>
+    <item>10分钟</item>
+    <item>15分钟</item>
+    <item>30分钟</item>
+    <item>45分钟</item>
+    <item>1小时</item>
+    <item>2小时</item>
+</string-array>
+<string-array name="switch_interval">
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>30</item>
+    <item>45</item>
+    <item>60</item>
+    <item>120</item>
+</string-array> 
+<string-array name="go_to">
+    <item>SD卡根文件夹</item>
+    <item>相机照片文件夹</item>
+    <item>高清壁纸下载文件夹</item>
+</string-array>
+    
+</resources>

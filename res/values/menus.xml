@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="MENU_RENAME">改名</string>
+	<string name="MENU_COPY">复制</string>
+	<string name="MENU_CUT">剪切</string>
+	<string name="MENU_DELETE">删除</string>
+	<string name="MENU_REMOVE">移除</string>
+	<string name="MENU_PROPERTY">属性</string>
+	<string name="MENU_OPEN">打开</string>
+	
+	<string name="MENU_SETTINGS">设置</string>
+	<string name="MENU_REFRESH">刷新</string>
+	<string name="MENU_ABOUT">关于美图飞度</string>
+	<string name="MENU_EXIT">退出美图飞度</string>
+	<string name="MENU_SHOW_HIDE_TAB">显示/隐藏标签</string>
+	<string name="MENU_CLEANUP">清理重复图片</string>
+	<string name="MENU_SORT">排序方式</string>
+	<string name="MENU_RECOMMEND_APPS">推荐必备应用</string>
+	<string name="MENU_CHECK_NEWVERSION">检测版本更新</string>
+	<string name="MENU_ONLINE_WALLPAPER">在线高清壁纸展</string>
+	
+
+	<string name="MENU_RETURN">返回浏览</string>
+	<string name="MENU_MAKE_IMAGE_PAD">定制成鼠标垫</string>
+	<string name="MENU_RAW_SIZE">原始大小</string>
+	<string name="MENU_ROTATION_LEFT">逆时针旋转</string>
+	<string name="MENU_ROTATION_RIGHT">旋转</string>
+	<string name="MENU_ZOOM">放大/缩小</string>
+	<string name="MENU_ADD_TO_FAVORITE">加入收藏</string>
+	<string name="MENU_SET_AS_WALLPAPER">设置为壁纸</string>
+	<string name="MENU_DOWNLOAD_WALLPAPER">下载到SD卡</string>
+	<string name="MENU_DOWNLOAD_WALLPAPERS_ALL">下载本期高清壁纸</string>
+	    	
+	
+	<string name="MENU_TAOBAO_STORE">美图鼠标垫定制：婕然不同淘宝店</string>
+	<string name="MENU_TAOBAO_STORE_URL">http://ajxp.taobao.com/</string>
+	<string name="MENU_JUMP_TO_DOWNLOAD_DIR">跳转到下载文件夹</string>
+	    	
+</resources>
