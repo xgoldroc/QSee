@@ -1,6 +1,6 @@
 package cn.com.cloudfly.qsee;
 
-import cn.com.cloudfly.qsee.util.SystemUiHider;
+import cn.com.cloudfly.qsee.utility.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

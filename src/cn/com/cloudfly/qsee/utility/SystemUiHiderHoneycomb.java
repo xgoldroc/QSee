@@ -1,4 +1,4 @@
-package cn.com.cloudfly.qsee.util;
+package cn.com.cloudfly.qsee.utility;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

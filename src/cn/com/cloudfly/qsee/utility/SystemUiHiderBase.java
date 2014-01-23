@@ -1,4 +1,4 @@
-package cn.com.cloudfly.qsee.util;
+package cn.com.cloudfly.qsee.utility;
 
 import android.app.Activity;
 import android.view.View;

@@ -1,9 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">QSee</string>
-    <string name="app_ver">2.0</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-
+	<string name="AUTHOR">许金鹏</string>
+	<string name="APP_TITLE">美图飞度</string>
+    <string name="APP_NAME">美图飞度全屏壁纸</string>
+	<string name="OK">确定</string>
+	<string name="APP_VER">2.0</string>
+	<string name="APP_ABOUT_INFO"><![CDATA[美图飞度 全屏壁纸浏览设置器<br/>版本 2.0    2010.5~2013.2<br/>作者 许金鹏<br/>邮箱 <a href="mailto:cloudfly@live.cn">cloudfly@live.cn</a><br/>微博 <a href="http://weibo.com/2312288467">weibo.com/2312288467</a><br/>QQ 23410528]]></string>
+	<string name="CANCEL">取消</string>
+	<string name="CLOSE">返回</string>
+	<string name="FAVORITE_FOLDER_NAME">收藏夹</string>
+	<string name="SDCARD_NAME">SD卡</string>
+	<string name="WALLPAPER">美图飞度自适应壁纸服务</string>
+	<string name="WALLPAPER_DESC">美图飞度使用此服务显示自适应屏幕大小尺寸的壁纸，从此不再局限于固定纵横比的图片。</string>
+	<string name="WALLPAPER_START_QUERY">壁纸功能需要启用美图飞度自适应壁纸服务。\n是否现在选择启用？</string>
+	<string name="FAVORITE_ALREADY_CONTAINS">此图片已经被收藏过，无需重复收藏。</string>
+	<string name="ENTER_FAVORITE">进入收藏夹</string>
+	<string name="SUCCESS_TO_ADD_FAVORITE">成功添加到收藏夹</string>
+	<string name="EXIT_FAVORITE">退出收藏夹</string>
+	<string name="SELECT_CURRENT_DIR">切换当前位置</string>
+	<string name="EXIT_CONFIRM_INFO">退出美图飞度？</string>
+	<string name="BACK_TO_PARENT_DIR">返回上层文件夹</string>
+	<string name="NOT_SET_WALLPAPER">未设置美图飞度壁纸</string>
+	<string name="SETTING_WALLPAPER">美图飞度壁纸载入中……</string>
+	<string name="PASTE_IMAGE_TO">粘贴图片到此文件夹</string>
+	<string name="PASTE_IMAGE">粘贴图片</string>
+	<string name="TO">到</string>
+	<string name="FOLDER">文件夹</string>
+	<string name="RENAME_FOLDER">重命名文件夹</string>
+	<string name="INPUT_NEW_NAME">输入新名称:</string>
+	<string name="CONFIRM_DELETE">确认删除</string>
+	<string name="DELETE_FOLDER">删除文件夹</string>
+	<string name="ERROR_CAN_NOT_RENAME_FILE">无法改名文件,权限不足</string>
+	<string name="ERROR_CAN_NOT_DELETE">无法删除</string>
+	<string name="ERROR_FOLDER_IS_NOT_EMPTY">文件夹可能不为空</string>
+	<string name="NO_DELETE_PERMISION">没有删除权限.</string>
+	<string name="ERROR_FAILED_CREATE_FILE">无法创建文件</string>
+	<string name="ERROR_FAILED_COPY_FILE">无法复制文件</string>
+	<string name="ERROR_NOT_FOUND_ANY_IMAGE">未发现图片或文件夹!</string>
+	<string name="FIND">发现</string>
+	<string name="HAS">已有</string>
+	<string name="MANY_IMAGE">张图片</string>
+	<string name="IMAGE">图片</string>
+	<string name="SUBFOLDER">文件夹</string>
+	<string name="CURRENT_PATH">当前位置</string>
+	<string name="CONFIRM_EXIT">确认退出</string>
+	<string name="SORRY_FOR_NOT_SUPPORT_DYNAMIC_WALLPAPER">抱歉，您的手机不支持动态壁纸</string>	
+	<string name="BACK_TO_PARENT">(返回上层)</string>
+	<string name="FILE_NAME">文件</string>
+	<string name="IMAGE_AREA_SIZE">尺寸</string>
+	<string name="PIXEL">像素</string>
+	<string name="POSITION">位置</string>
+	<string name="SUCCESS_TO_RENAME">重命名成功</string>
+	<string name="FAILED_TO_RENAME">无法重命名</string>
+	<string name="LOW_MEMORY">内存不足，清理缓存...</string>
+	<string name="LOW_MEMORY_AND_SUG_RESTART">内存不足，清理缓存...\n如仍然出现此提示，建议重启程序。</string>
+	<string name="SETTING_WALLPAPER_PLS_WAIT">美图飞度正在设置壁纸,请稍候...</string>
+	<string name="BAD_SDCARD">美图飞度检测到SD卡被拔出或尚未初始化</string>
+	<string name="FAILED_LOAD_IMAGE">无法载入图片，文件失效或内存不足.</string>
+	<string name="FAILED_DRAW_WALLPAPER">壁纸文件载入错误或被删除</string>
+	<string name="NEXT"><![CDATA[载入下一张]]></string>
+	<string name="PREV"><![CDATA[载入上一张]]></string>
+	<string name="SETTING_WALLPAPER_DONE">壁纸设置完成</string>
+	<string name="SELECT_ROTATION_MODE">选择旋转方向</string>
+	<string name="ENTER_SINGLE_IMG_ZOOMIN_MODE">进入单张图片放大模式</string>
+	<string name="CONFIRM_SET_WALLPAPER">确认将此图片设置为美图飞度自适应壁纸？</string>
+	<string name="FAVORITE_DELETE_COMMENT">此操作仅仅从收藏夹中移除，不会真正删除文件。</string>
+	<string name="FOUND_DUPLICATED_IMAGES_DETAIL">发现 %d 个重复项</string>
+	<string name="FOUND_DUPLICATED_IMAGES">发现重复图片</string>
+	<string name="DELETE_ONE">删除一个</string>
+	<string name="SKIP">保留</string>
+	<string name="CLEANUP">清理</string>
+	<string name="NOT_FOUND_DUPLICATED_IMAGES">沒有发现重复项</string>
+	<string name="USER_FEEDBACK">用户反馈</string>
+	<string name="FIRST_ENTER_WARNING">第一次打开文件夹，预览初始化中...\n展示会稍慢。</string>
+	<string name="WALLPAPER_EXHIBITION">高清壁纸展</string>
+	<string name="WALLPAPER_EXHIBITION_LOCAL">高清壁纸展方式浏览</string>
+	    	
+	<string name="EXHIBITION_TIPS">友情提示：建议使用WIFI方式查看和下载</string>
+	<string name="ERROR_NETWORK">当前网络不可用，请确认打开网络连接后重试。</string>
+	<string name="ERROR_GET_USER_INFO">无法获得用户信息，请稍候重试</string>
+	<string name="ERROR_SEND_EMAIL">未发现电子邮件程序，无法发送电子邮件。</string>
+	<string name="ERROR_OPEN_WEB_URL">未发现浏览器程序，无法打开链接。</string>
+	
+	<string name="WAITING_DOWNLOADING">正在下载，请稍候...</string>	 
+	<string name="FOUND_WALLPAPER_DELETED">发现文件被删除，重新刷新列表...</string>
+	<string name="FOUND_WALLPAPER_DIR_DELETED">发现壁纸存放文件夹被删除，请重新设置</string>
+	   
+	<string name="QUICK_JUMP">快速跳转</string>
+	<string name="WALLPAPER_DOWNLOAD">高清壁纸下载</string>
+	<string name="GET_MORE_MONEY">获取更多</string>
+	<string name="ERROR_EXHIBITION">高清壁纸服务无法连接，请退出程序后稍候重试</string>
+	
 </resources>
